@@ -2,7 +2,7 @@
 Train a multi-modal deep learning scheme (combining CNN and FNN) to predict cloudburst events using INSAT3D images and ERA5 hourly temperature and precipitation data. 
 
 ## Input data
-- Satellite images from INSAT3D collected from Meteorological and Oceanographic Satellite Data Archival Centre(https://mosdac.gov.in/) [4]during the occurrence of cloud bursts, as well as 6 hours prior and 6 hours after the cloudburst. Images of random noncloudburst events  
+- Satellite images from INSAT3D collected from Meteorological and Oceanographic Satellite Data Archival Centre(https://mosdac.gov.in/) during the occurrence of cloud bursts, as well as 6 hours prior and 6 hours after the cloudburst. Images of random noncloudburst events  
 - satellite images were labeled into 4 categories: 'cloudburst,' 'precloudburst', 'postcloudburst', and 'no cloudburst  
 - ERA5 Climate reanalysis data (hourly temperature and precipitation) from CDS store (https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form) converted into .csv format  
 
